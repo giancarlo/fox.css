@@ -1,0 +1,62 @@
+
+body {
+	font: 14px monospace; color: #ccc; background: #009; font-weight: bold;
+	line-height: 16px; margin: 0; padding: 0;
+}
+body > header { background: #ccc; color: #000; padding: 0 16px; }
+
+header nav { padding: 0; margin: 0; }
+header a { color: #000; text-decoration: none; }
+
+nav { margin: 16px; }
+section { margin: 16px; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 14px; margin: 0; padding: 0; line-height: 16px; }
+
+a { color: #ccc; }
+
+input, select, button, textarea { 
+	font: 14px monospace;
+	border: 0; background: #ccc;
+	height: 16px; margin: 0; padding: 0;
+}
+
+button {
+	padding: 0 16px;
+}
+
+label { padding: 0; margin: 0; }
+
+input[type="checkbox"] {
+	width: 48px;		
+	height: 16px;
+	color: #ccc; background: none; border: 0;
+	margin: 0; padding: 0;
+}
+
+fieldset {
+	border: 1px solid #ccc;
+	margin: 7px; padding: 8px;
+}
+
+legend { 
+	color: #000; background-color: #ccc;
+}
+
+.fox-window {
+	border: 16px solid #ccc;
+	background-color: teal;
+	color: #eee;
+}
+
+.fox-window > h1 {
+	margin-top: -16px; color: #666; text-align: center;
+}
+
+.fox-modal {
+	margin: 6px; padding: 6px;
+	border: 4px double #eee; background-color: darkmagenta;	
+	color: #eee;
+}
+
+.fox-modal > h1 { text-align: center; }
